@@ -1,0 +1,296 @@
+.nav {
+  position: relative;
+  margin: 0;
+  height: 30px;
+  width: 100%;
+  display: block;
+  background-color: rgba(19, 83, 133, 1);
+  color: #ffffff;
+  border-bottom: solid;
+}
+
+.nav .skillTest {
+  float: left;
+  line-height: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 40px;
+  color: #ffffff;
+}
+
+.nav .logo {
+  float: left;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #ffffff;
+}
+
+.header1 {
+  width: 100%;
+  font-size: 27px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.form-input {
+  margin: 0 auto;
+  height: 400px;
+  width: 300px;
+  display: inline-block;
+}
+
+.form-inside-input {
+  width: 0;
+}
+.errorMessage {
+  color: red;
+  font-size: 10px;
+  display: inline-block;
+  width: 350px;
+}
+
+.errorMessage.phone {
+  margin-left: 0;
+}
+
+.errorMessage.terms {
+  top: 370px;
+  left: 102px;
+}
+input {
+  line-height: 17px;
+  width: 350px;
+  border: 1px #e2e2e2 solid;
+  border-radius: 5px;
+  text-align: left;
+  padding: 4px 0 4px 8px;
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+input.pass {
+  border: 2px solid #7cea7c;
+}
+
+input.error {
+  border: 2px solid red;
+}
+#checkBox {
+  display: inline-block;
+}
+
+input#phone {
+  width: 165px;
+}
+
+input#zip {
+  width: 165px;
+  margin: -47px 0 0 187px;
+  display: flex;
+}
+
+input.checkBox {
+  display: block;
+  float: left;
+  width: 28px;
+  height: 28px;
+  margin-left: 14px;
+}
+
+button {
+  padding: 7px;
+  width: 72px;
+  border: 1px #e2e2e2 solid;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: rgba(113, 185, 225, 1);
+  margin: 0 0 0 50px;
+}
+.acceptedPhrase {
+  font-size: 10px;
+  margin: -3px 0 10px 11px;
+  width: 300px;
+  text-align: left;
+  color: #ffffff;
+  display: block;
+}
+
+.mobileImage {
+  float: left;
+  margin: 40px 10px 0 10px;
+}
+
+.mobileImage.desk {
+  float: right;
+  margin: -40px 100px 0 0;
+}
+
+.deskImage {
+  height: 320px;
+  float: left;
+  margin: 0 52px 0 93px;
+  width: 320px;
+}
+
+.mainArea {
+  display: inline-block;
+  position: fixed;
+  top: 735px;
+  right: 137px;
+}
+
+.mainText.desk {
+  width: 50%;
+  margin: 0 0 0 40px;
+  float: left;
+}
+
+.header2 {
+  font-size: 35px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.header2.sideArea {
+  font-size: 25px;
+}
+
+.list {
+  text-align: justify;
+  display: inline-block;
+  color: #ffffff;
+}
+
+.list p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.list.sideArea p {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    position: relative;
+    margin: 0;
+    height: 30px;
+    width: 420px;
+    display: block;
+    background-color: rgba(19, 83, 133, 1);
+    color: #ffffff;
+    border-bottom: solid;
+  }
+
+  .nav .skillTest {
+    float: left;
+    line-height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: #ffffff;
+  }
+
+  .nav .logo {
+    float: right;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    color: #ffffff;
+  }
+
+  .header1 {
+    width: 100%;
+    font-size: 25px;
+    margin: 10px 16px;
+    color: #ffffff;
+  }
+
+  .mobileImage {
+    margin: 4px 0 0 -42px;
+  }
+
+  input {
+    width: 187px;
+  }
+
+  input.checkBox {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-left: -9px;
+  }
+
+  input#phone {
+    width: 187px;
+  }
+
+  input#zip {
+    width: 187px;
+    margin: 0;
+    display: block;
+  }
+
+  .errorMessage {
+    color: red;
+    font-size: 10px;
+    display: inline-flex;
+    width: 275px;
+  }
+
+  .errorMessage.phone {
+    margin-left: -42px;
+  }
+
+  .errorMessage.terms {
+    top: 370px;
+    left: 102px;
+  }
+
+  .acceptedPhrase {
+    font-size: 10px;
+    margin: 0;
+    width: 225px;
+    text-align: left;
+    color: #ffffff;
+    display: flex;
+  }
+
+  button {
+    margin: 5px 0 0 150px;
+  }
+
+  .form-input {
+    height: 400px;
+    display: block;
+  }
+
+  .form-inside-input {
+    margin: 0;
+  }
+
+  .errorMessage.terms {
+    top: 370px;
+    left: 102px;
+  }
+
+  .mainArea {
+    display: inline-block;
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  .list {
+    text-align: left;
+  }
+
+  .list p {
+    font-size: 12px;
+  }
+}
